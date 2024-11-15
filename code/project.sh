@@ -1,4 +1,4 @@
-export CODE_DIR="/storage/shared/Code"
+export CODE_DIR="" # edit with your MATLAB path for CBF, QSM and SANDI processing
 export PROJECT_NAME="Vitality"
 export SCRIPT_DIR=$PWD
 export ROOT_DIR="$( cd ..; pwd )"
