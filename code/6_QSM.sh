@@ -50,7 +50,7 @@ for SUBJ in ${SCANS[@]}; do
   sleep 2
   cowsay -f stegosaurus  Processing Subject $SUBJ
   # define commands
-  ROMEO="/storage/emma/mritools_Linux_3.5.0/bin/romeo"
+  ROMEO="$CODE_DIR/mritools_Linux_3.5.0/bin/romeo"
   # define files and folders
   WRK_DIR=$PROC_DIR/$SUBJ/anat
 
